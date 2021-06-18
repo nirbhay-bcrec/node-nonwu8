@@ -1,0 +1,12 @@
+<style>
+    .mr-2 {
+        margin-right: 20px;
+    }
+</style>
+<div class="container">
+    <h1>WELCOME TO ANGULAR</h1>
+    <button class="btn btn-lg btn-primary mr-2" [routerLink]="['login']">Login</button>
+    <button class="btn btn-lg btn-success mr-2" [routerLink]="['list']">Product</button>
+    <button class="btn btn-lg btn-warning mr-2" [routerLink]="['feedback']">Feedback</button>
+</div>
+<router-outlet></router-outlet>
